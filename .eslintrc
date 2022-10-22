@@ -1,0 +1,7 @@
+{
+  "extends": ["next", "prettier"],
+  "root": true,
+  "rules": {
+    "import/no-anonymous-default-export": "off"
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "name": "yuri-cunha-blog",
+  "description": "My personal blog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "pre-commit": "yarn lint && yarn lint-staged",
+    "prepare": "husky install"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@tailwindcss/typography": "^0.3.1",
+    "autoprefixer": "^10.1.0",
+    "date-fns": "^2.16.1",
+    "firebase-admin": "^9.4.2",
+    "gray-matter": "^4.0.2",
+    "next": "latest",
+    "next-seo": "^4.17.0",
+    "nprogress": "^0.2.0",
+    "playwright-aws-lambda": "^0.6.0",
+    "playwright-core": "^1.8.0",
+    "postcss": "^8.2.1",
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^6.7.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "reading-time": "^1.2.1",
+    "remark": "^13.0.0",
+    "remark-html": "^13.0.1",
+    "swr": "^0.4.0",
+    "tailwindcss": "^2.0.2",
+    "typed.js": "^2.0.11"
+  },
+  "devDependencies": {
+    "eslint": "^7.8.0",
+    "eslint-config-next": "^11.0.0",
+    "eslint-config-prettier": "^8.3.0",
+    "husky": "^6.0.0",
+    "lint-staged": "^11.0.0",
+    "prettier": "^2.3.1"
+  },
+  "lint-staged": {
+    "*.+(js|md)": "prettier --write --ignore-unknown"
+  }
+}
