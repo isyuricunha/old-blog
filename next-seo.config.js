@@ -7,11 +7,11 @@ const SEO = {
   title,
   titleTemplate,
   description,
-  canonical: 'https://www.blog.garotogordo.codes/',
+  canonical: 'https://www.blog.yuricunha.xyz/',
   openGraph: {
     type: 'website',
     locale: 'en_IE',
-    url: 'https://www.blog.garotogordo.codes/',
+    url: 'https://www.blog.yuricunha.xyz/',
     title,
     description,
     images: [
