@@ -30,7 +30,7 @@ const LayoutFooter = () => {
             </g>
           </svg>
         </ExternalTabLink>
-        <ExternalTabLink href="https://instagram.com/garotogordo">
+        <ExternalTabLink href="https://instagram.com/isyuricunha">
           <span className="sr-only">Instagram</span>
           <svg className="w-5 h-5" viewBox="0 0 24 24">
             <g
