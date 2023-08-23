@@ -2,7 +2,7 @@
 
 This is based on starter template for [Learn Next.js](https://nextjs.org/learn) but using some customizations 🚀.
 
-Demo: https://www.blog.yuricunha.xyz/
+Demo: https://www.blog.yuricunha.com/
 
 ## Built with
 
